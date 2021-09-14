@@ -8,11 +8,20 @@ import hsa.Console;
 
 public class SepFourteenOne // progam heading & gives the program its name public can be accessed by other programs
 {
-    static Console c;
+    Console c;
+    public void output(){
+	c.println("wow so cool"); // prints a string
+	c.print("7 chars", 8); // reserves 8 spaces, fills the first few with "7 chars"
+	c.print("There is one space between this and the last print");
+    }
+    
+    public SepFourteenOne(){
+	c = new Console (); // creates a new object (called c) of type Console
+    }
     
     public static void main (String[] args) // main method is the starting point
     { // brackets indicate the beginning and end of a block of code
-	c = new Console (); // creates a new object (called c) of type Console
-	c.println("wow so cool");    
+	SepFourteenOne current = new SepFourteenOne();
+	current.output();
     } // main method
 } // SepFourteenOne class
