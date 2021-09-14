@@ -13,7 +13,6 @@ public class SepFourteenOne // progam heading & gives the program its name publi
     public static void main (String[] args) // main method is the starting point
     { // brackets indicate the beginning and end of a block of code
 	c = new Console (); // creates a new object (called c) of type Console
-	c.println("hello people this is a print statement wow boop aksdfjwre");
-	
+	c.println("wow so cool");    
     } // main method
 } // SepFourteenOne class
